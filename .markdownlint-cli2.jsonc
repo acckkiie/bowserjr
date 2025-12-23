@@ -1,0 +1,21 @@
+{
+  // Markdownlint configuration with custom rules
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD033": {
+      "allowed_elements": [
+        "br",
+        "details",
+        "summary"
+      ]
+    },
+    "MD040": false,
+    "MD041": false,
+    "MD060": false
+  },
+  "customRules": [
+    "./.markdownlint-rules/no-strong.js",
+    "./.markdownlint-rules/no-numbered-headings.js"
+  ]
+}

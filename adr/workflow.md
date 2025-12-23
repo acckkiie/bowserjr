@@ -28,15 +28,15 @@ flowchart TD
 |---------|------|
 | `.husky/pre-commit` | pre-commit hook スクリプト（lint-staged を実行） |
 | `package.json` の `lint-staged` | ステージングファイルに対する実行設定 |
-| `.markdownlint.json` | markdownlint のルール設定 |
+| `.markdownlint-cli2.jsonc` | markdownlint config with custom rules |
 | `.textlintrc.json` | textlint のルール設定 |
 
 ## 使用ツール
 
-- **Husky**: Git hooks を簡単に管理するツール
-- **lint-staged**: ステージング中のファイルのみを処理するツール
-- **markdownlint-cli2**: Markdown の構文・スタイルチェック
-- **textlint**: 文章校正エンジン
+- Husky: Git hooks を簡単に管理するツール
+- lint-staged: ステージング中のファイルのみを処理するツール
+- markdownlint-cli2: Markdown の構文・スタイルチェック
+- textlint: 文章校正エンジン
 
 ## 参考リンク
 
