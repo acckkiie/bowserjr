@@ -1,0 +1,21 @@
+{
+  "name": "bowserjr",
+  "version": "1.0.0",
+  "description": "A repository for managing Zenn articles and books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zenn",
+    "article",
+    "book",
+    "markdown",
+    "blog"
+  ],
+  "author": "acckkiie",
+  "license": "ISC",
+  "dependencies": {
+    "zenn-cli": "^0.2.11"
+  }
+}
