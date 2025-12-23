@@ -23,6 +23,7 @@
       }
     },
     "preset-japanese": true,
-    "spellcheck-tech-word": true
+    "spellcheck-tech-word": true,
+    "preset-ja-spacing": true
   }
 }

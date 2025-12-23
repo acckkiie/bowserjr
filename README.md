@@ -24,9 +24,9 @@ BowserJRは、Zenn CLIを使用して記事や本を管理するためのリポ�
 
 記事や本を公開するには以下の手順を実行する。
 
-1. マークダウンファイルの Front Matter で `published: true` に設定
-2. GitHub リポジトリにコミット & プッシュ
-3. Zenn が自動的に同期してデプロイを実行
+1. マークダウンファイルのFront Matterで `published: true` に設定
+2. GitHubリポジトリにコミット & プッシュ
+3. Zennが自動的に同期してデプロイを実行
 
 デプロイ履歴は [ダッシュボード](https://zenn.dev/dashboard/deploys) から確認できる。
 

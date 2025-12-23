@@ -4,7 +4,7 @@
 
 ## Git コミット時の自動校正
 
-コミット前に Markdown の構文チェックと文章校正が自動的に実行される仕組みである。
+コミット前にMarkdownの構文チェックと文章校正が自動的に実行される仕組みである。
 
 ```mermaid
 flowchart TD
@@ -33,9 +33,9 @@ flowchart TD
 
 ## 使用ツール
 
-- Husky: Git hooks を簡単に管理するツール
+- Husky: Git hooksを簡単に管理するツール
 - lint-staged: ステージング中のファイルのみを処理するツール
-- markdownlint-cli2: Markdown の構文・スタイルチェック
+- markdownlint-cli2: Markdownの構文・スタイルチェック
 - textlint: 文章校正エンジン
 
 ## 参考リンク
