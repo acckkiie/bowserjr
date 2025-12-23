@@ -1,4 +1,10 @@
-# Zenn CLI
+# BowserJR
+
+## 概要
+
+BowserJRは、Zenn CLIを使用して記事や本を管理するためのリポジトリです。
+
+## Zenn CLI
 
 * [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
 
