@@ -9,11 +9,6 @@
         "allowHalfWidthExclamation": true,
         "allowFullWidthExclamation": false
       },
-      "ja-no-mixed-period": {
-        "allowPeriodMarks": [
-          ":"
-        ]
-      },
       "arabic-kanji-numbers": true,
       "no-mix-dearu-desumasu": {
         "preferInHeader": "",
@@ -24,6 +19,6 @@
     },
     "preset-japanese": true,
     "spellcheck-tech-word": true,
-    "preset-ja-spacing": true
+    "preset-ja-spacing": false
   }
 }
