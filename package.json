@@ -4,7 +4,8 @@
   "description": "A repository for managing Zenn articles and books",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"!node_modules\"",
+    "lint:md:fix": "markdownlint-cli2 --fix \"**/*.md\" \"!node_modules\"",
     "lint:text": "textlint \"articles/**/*.md\" \"books/**/*.md\" \"adr/**/*.md\" \"README.md\"",
     "lint:text:fix": "textlint --fix \"articles/**/*.md\" \"books/**/*.md\" \"adr/**/*.md\" \"README.md\"",
     "prepare": "husky"
@@ -23,12 +24,14 @@
   },
   "lint-staged": {
     "*.md": [
+      "markdownlint-cli2",
       "textlint"
     ]
   },
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
+    "markdownlint-cli2": "^0.20.0",
     "textlint": "^15.5.0",
     "textlint-rule-preset-ja-technical-writing": "^12.0.2",
     "textlint-rule-preset-japanese": "^10.0.4",
