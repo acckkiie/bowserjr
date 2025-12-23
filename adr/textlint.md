@@ -9,6 +9,7 @@
 | `textlint-rule-preset-ja-technical-writing` | 技術文書向けの厳格なルール |
 | `textlint-rule-preset-japanese` | 日本語の基本的な校正ルール |
 | `textlint-rule-spellcheck-tech-word` | 技術用語のスペルチェック |
+| `textlint-rule-preset-ja-spacing` | 全角・半角スペースの統一（認知的流暢性の向上） |
 
 ## 主要な校正ルール
 
