@@ -1,5 +1,9 @@
 {
   // Markdownlint configuration with custom rules
+  "ignores": [
+    "build",
+    "node_modules"
+  ],
   "config": {
     "default": true,
     "MD013": false,
